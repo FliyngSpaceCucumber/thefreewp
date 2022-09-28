@@ -1,0 +1,41 @@
+// Use this file to overwrite the basic Bootstrap variables and add your own variables
+// To overwrite a Bootstrap variable you don´t have to touch the Bootstrap folder.
+// Just copy a variable from src/sass/assets/bootstrap5/_variables.scss, paste it here and edit the value.
+
+
+$purple: #5533ff; // Thats a sample how you could change a BootStrap variable.
+$primary: $purple;  // Once we've changed the value, we'll also make it the primary brand color.
+$navbar-brand-padding-y: 1.2rem;
+$secondary: #5ae895;
+$muted: #999;
+
+$font-family-sans-serif: 'Poppins', sans-serif;
+
+$spacers: (
+        0: 0,
+        1: 10px,
+        2: 15px,
+        3: 20px,
+        4: 25px,
+        5: 30px,
+        6: 35px,
+        100: 100px,
+        150: 150px,
+) !default;
+
+
+$grid-breakpoints: (
+        xs: 0,
+        sm: 576px,
+        md: 768px,
+        lg: 1140px,
+        xl: 1440px,
+        xxl: 1920px
+) !default;
+
+$h1-font-size: 48px;
+$h2-font-size: 48px;
+$h3-font-size: 24px;
+$h4-font-size: 18px;
+$h5-font-size: 24px;
+$h6-font-size: 12px;

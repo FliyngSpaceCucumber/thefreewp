@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["invitation.scss"],"names":[],"mappings":"AAGI;EACE;EACA;EACA","file":"invitation.css","sourcesContent":[".invitation {\r\n\r\n  &_btn {\r\n    i {\r\n      width: 20px;\r\n      margin: 6px 6px 0px 6px;\r\n      height: 20px;\r\n    }\r\n  }\r\n}"]}

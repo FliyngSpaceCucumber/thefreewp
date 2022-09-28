@@ -1,0 +1,41 @@
+@import "../../node_modules/bootstrap/scss/mixins";
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+
+.hero {
+  background-image: linear-gradient(170deg,#5540d9 0%,#ee7fff 100%);
+
+  &_top-image {
+    courser: pointer;
+
+    img {
+      width: 23%;
+      @include media-breakpoint-down(lg) {
+        width: 32%;
+      }
+      @include media-breakpoint-down(md) {
+        width: 75%;
+      }
+    }
+  }
+
+  .custom-logo-link {
+
+    @include media-breakpoint-down(md) {
+      display: flex;
+      justify-content: center;
+    }
+
+    img {
+      width: 12%;
+
+      @include media-breakpoint-down(lg) {
+        width: 19%;
+      }
+      @include media-breakpoint-down(md) {
+        width: 25%;
+      }
+
+    }
+  }
+}

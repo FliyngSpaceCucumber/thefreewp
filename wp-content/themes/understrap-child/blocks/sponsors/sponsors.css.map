@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["sponsors.scss"],"names":[],"mappings":"AAEI;EACE;;AACA;EACE;EACA","file":"sponsors.css","sourcesContent":[".sponsors {\r\n  &_slider {\r\n    &_sponsor {\r\n      margin: 0 25px 0 25px;\r\n      img {\r\n        height: auto;\r\n        max-width: 100%;\r\n      }\r\n    }\r\n  }\r\n}"]}
