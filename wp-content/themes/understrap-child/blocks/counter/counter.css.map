@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["counter.scss"],"names":[],"mappings":"AAAA;EACE;;AACA;EACE","file":"counter.css","sourcesContent":[".counter {\r\n  margin: 1000px 0;\r\n  &_number {\r\n    font-size: 69px;\r\n  }\r\n\r\n}"]}

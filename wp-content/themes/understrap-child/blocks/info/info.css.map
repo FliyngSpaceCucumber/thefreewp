@@ -1,0 +1,1 @@
+{"version":3,"sourceRoot":"","sources":["info.scss"],"names":[],"mappings":"AAII;EACE;EACA","file":"info.css","sourcesContent":[".info {\r\n  \r\n  .img {\r\n\r\n    img {\r\n      max-width: 90%;\r\n      float: right;\r\n    }\r\n  }\r\n}"]}

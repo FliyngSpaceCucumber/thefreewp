@@ -37,5 +37,27 @@ function fintext_acf_init_block_types() {
 
             },
         ));
+
+        acf_register_block_type(array(
+            'name' => 'info',
+            'title' => __('Info'),
+            'description' => __('A custom Info block.'),
+            'render_template' => 'blocks/info/info.php',
+            'enqueue_assets' => function(){
+                wp_enqueue_style('info-css');
+
+            },
+        ));
+
+        acf_register_block_type(array(
+            'name' => 'counter',
+            'title' => __('Counter'),
+            'description' => __('A custom Counter block.'),
+            'render_template' => 'blocks/counter/counter.php',
+            'enqueue_assets' => function(){
+                wp_enqueue_style('counter-css');
+
+            },
+        ));
     }
 }
